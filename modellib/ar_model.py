@@ -23,8 +23,8 @@ from architectures.transformers import AutoregressiveDecoder
 from architectures.transformers import MLP
 from architectures.transformers import ResNetTransformer
 from architectures.transformers import VisionTransformer
-from models import model as model_lib
-from models import model_utils
+from modellib import model as model_lib
+from modellib import model_utils
 import tensorflow as tf
 
 

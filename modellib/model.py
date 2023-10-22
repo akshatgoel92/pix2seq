@@ -20,7 +20,7 @@ from absl import logging
 import ml_collections
 import registry
 import utils
-from models import model_utils
+from modellib import model_utils
 import tensorflow as tf
 
 ModelRegistry = registry.Registry()
