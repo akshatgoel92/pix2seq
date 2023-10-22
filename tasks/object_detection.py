@@ -23,7 +23,7 @@ import ml_collections
 import numpy as np
 import utils
 import vocab
-from data import data_utils
+from datalib import data_utils
 from metrics import coco_metrics
 from tasks import task as task_lib
 from tasks import task_utils
